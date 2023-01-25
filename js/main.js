@@ -43,3 +43,43 @@ console.log(secondsInAHour);
 let hoursInADay = 24;
 let secondsInDay = secondsInAHour * hoursInADay;
 console.log(secondsInDay);
+
+
+let daysInAYear = 365;
+let secondsInAYear = secondsInDay * daysInAYear;
+console.log(secondsInAYear);
+
+let age = 36;
+console.log(age * secondsInAYear);
+console.log(29 * secondsInAYear);
+
+
+// оператор ++ увеличивает значение на 1 (называют инкрементом)
+// оператор -- уменьшает значение на 1 (называют декрементом)
+
+let higthFives = 0;
+console.log(++higthFives);
+console.log(++higthFives);
+console.log(--higthFives);
+// также эти опепраторы можно писать и после обьявления переменной- эфект будет прежним.однако после выполнея команды js вернёт первоначальное значение до инкремента и декремента.
+console.log(higthFives++);
+
+higthFives = 0;
+console.log(higthFives++);
+console.log(higthFives++);
+console.log(higthFives++);
+console.log(higthFives);
+
+
+
+let x = 10;
+x = x + 5;
+console.log(x);
+
+
+let score = 10;
+console.log(score += 7);
+console.log((score -= 3));
+
+
+// стр 33
